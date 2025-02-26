@@ -55,8 +55,6 @@ IncludeCategories:
   Priority: 7
 - Regex: '^"'
   Priority: 4
-- Regex: '^<experimental/'
-  Priority: 6
 - Regex: '^<'
   Priority: 5
 IndentCaseLabels: true

@@ -106,9 +106,6 @@ if cake.system.isWindows() or cake.system.isCygwin():
       compiler.warningLevel = '4'
       compiler.warningsAsErrors = True
 
-      # Enable experimental C++ coroutines via command-line flag.
-      compiler.addCppFlag('/await')
-
       # Enable static analysis warnings (not as errors)
       compiler.addCppFlag('/analyze:WX-')
       compiler.addCppFlag('/analyze:max_paths')
